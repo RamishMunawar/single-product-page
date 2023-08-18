@@ -35,12 +35,12 @@ const ProductPage = () => {
                     <h1 className='text-2xl font-bold'>Gildan Hammer Adult Crew Sweatshirt</h1>
                 </div>
                 <p className='text-gray-700'>
-                    Say hello to new Gildan Hammer adult fleece. With a soft blend of ring spun cotton and polyester, these, comfortable pieces make a strong statement fit for anyone. Made to last with twin needle stitching, these unique layering pieces feature innovative details, like their half-moon back patch. The cuffs and waistband hold their shape over time, thanks to the stretch and recovery of their ribbed spandex finish.
+                    Say hello to new Gildan Hammer adult fleece. With a soft blend of ring spun cotton and polyester, these  comfortable pieces make a strong statement fit for anyone. Made to last with twin needle stitching, these unique layering pieces feature innovative details, like their half-moon back patch. The cuffs and waistband hold their shape over time, thanks to the stretch and recovery of their ribbed spandex finish.
                 </p>
                 <h6 className='text-2xl font-semibold'>$ 15.00</h6>
                 <div className='flex flex-row justify-center items-center gap-5'>
                     <div className='flex flex-row items-center'>
-                        <button className='bg-gray-200 py-2 px-5 rounded-lg text-blue-800   text-3xl' onClick={() => setIncr((prev) => prev - 1)}>-</button>
+                        <button className='bg-gray-200 py-2 px-5 rounded-lg text-blue-800  text-3xl' onClick={() => setIncr((prev) => prev - 1)}>-</button>
                         <span className='py-4 px-6 text-2xl rounded-lg'>{incr}</span>
                         <button className='bg-gray-200 py-2 px-4 rounded-lg text-blue-800  text-3xl' onClick={() => setIncr((prev) => prev + 1)}>+</button>
                     </div>
